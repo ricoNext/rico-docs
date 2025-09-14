@@ -1,0 +1,12 @@
+{
+  "name": "docs",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "vitepress": "^1.6.3"
+  },
+  "scripts": {
+    "dev": "vitepress dev --port 9000",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  }
+}

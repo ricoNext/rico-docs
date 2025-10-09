@@ -2,16 +2,15 @@ import fs from "fs";
 import { defineConfig } from "vitepress";
 
 // 读取文件内容
-const getList = (dirPath: string) => {
-	const dirArr = fs.readdirSync(`./articles/${dirPath}`);
-
+const getList = (folder: string, dirPath: string) => {
+	const dirArr = fs.readdirSync(`./${folder}/${dirPath}`);
 	return dirArr
 		.map(dir => {
-			const content = fs.readFileSync(`./articles/${dirPath}/${dir}`, "utf-8");
+			const content = fs.readFileSync(`./${folder}/${dirPath}/${dir}`, "utf-8");
 			const title = content.match(/# (.*)/)?.[1];
 			return {
 				text: title,
-				link: `/articles/${dirPath}/${dir}`,
+				link: `/${folder}/${dirPath}/${dir}`,
 			};
 		})
 		.sort((a: any, b: any) => a?.text?.localeCompare(b?.text));
@@ -60,12 +59,7 @@ export default defineConfig({
 					{
 						text: "2025",
 						collapsed: true,
-						items: [
-							{ text: "JSON Schema", link: "/notes/json-schema" },
-							{ text: "pnpm", link: "/notes/pnpm" },
-							{ text: "GC 垃圾回收", link: "/notes/GC" },
-							{ text: "Ultracite", link: "/notes/ultracite" },
-						],
+						items: getList('notes', ""),
 					},
 				],
 			},
@@ -75,7 +69,7 @@ export default defineConfig({
 					{
 						text: "AI",
 						collapsed: true,
-						items: getList("AI"),
+						items: getList('articles', "AI"),
 					},
 				],
 			},
@@ -85,7 +79,7 @@ export default defineConfig({
 					{
 						text: "OAuth 2.0",
 						collapsed: true,
-						items: getList("OAuth"),
+						items: getList('articles',"OAuth"),
 					},
 				],
 			},

@@ -55,13 +55,7 @@ export default defineConfig({
 		sidebar: {
 			"/notes/": {
 				base: "",
-				items: [
-					{
-						text: "2025",
-						collapsed: true,
-						items: getList('notes', ""),
-					},
-				],
+				items: getList('notes', ""),
 			},
 			"/articles/AI/": {
 				base: "",

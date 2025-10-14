@@ -196,8 +196,8 @@ project/
 
 社区有大量成熟的规则模板可供参考，能帮你快速起步：
 
-- **官方规则库**（[cursor.directory](!https://cursor.directory/)）：提供Python、FastAPI、Django、Next.js、TypeScript等多种主流语言或框架的预设规则。
-- **[Awesome CursorRules](!https://github.com/PatrickJS/awesome-cursorrules)**：GitHub上的高星开源项目，收集了针对不同场景的大量规则模板。
+- **官方规则库**（[cursor.directory](https://cursor.directory)）：提供Python、FastAPI、Django、Next.js、TypeScript等多种主流语言或框架的预设规则。
+- **[Awesome CursorRules](https://github.com/PatrickJS/awesome-cursorrules)**：GitHub上的高星开源项目，收集了针对不同场景的大量规则模板。
 
 使用社区规则时，**复制内容后根据项目实际情况进行调整**是关键，包括修改技术栈版本、更新项目结构描述等。
 

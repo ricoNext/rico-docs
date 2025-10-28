@@ -4,7 +4,8 @@
 
 > 一键解决AI编码的过时API难题
 
-在上一篇文章中，我们介绍了在 cursor 中我们如何借助 rules 来规范代码升成，本文将会介绍如何使用 Context7 来解决 AI 编程助手的过时 API 问题。
+在上一篇 [深入解析 Cursor 规则：为团队打造统一的 AI 编程规范
+](https://www.riconext.cn/notes/cursorRules.html)，我们介绍了在 cursor 中我们如何借助 rules 来规范代码升成，本文将会介绍如何使用 Context7 来解决 AI 编程助手的过时 API 问题。
 
 ## 背景：AI编程助手的“代码幻觉”
 
@@ -71,20 +72,20 @@ root.render(<App />);
 
 **示例三: 获取 Ant Design 中某个组件的使用方式**
 
-代码中，是一个渲染 Form.Item 的配置数组，需要在这个配置中实现 logLevelCode 模块根据 statusCode 的选择来展示或隐藏。
+代码中是一个渲染 Form.Item 的配置数组，需要在这个配置中实现：根据 logLevelCode 模块 的选择结果，来展示或隐藏 statusCode 模块。
 
 ```tsx
 [
-     {
-    label: "日志开关",
-    name: "statusCode",
-    component: <Switch />,
-},
-{
-    label: "日志级别",
-    name: "logLevelCode",
-    component: <Radio.Group />,
-}
+    {
+        label: "日志开关",
+        name: "statusCode",
+        component: <Switch />,
+    },
+    {
+        label: "日志级别",
+        name: "logLevelCode",
+        component: <Radio.Group />,
+    }
 ]
 ```
 
@@ -152,6 +153,8 @@ Context7 提供了 `resolve_library_id`工具，用来根据描述找到准确�
 
 ### 2. 在对话中触发
 
+> 在 Cursor 中仅仅在 Agent 模式下的对话才拉取 mcp server 提供的工具。
+
 在向AI提问时，在问题的末尾加上触发指令“use context7”：
 
 ```
@@ -194,4 +197,7 @@ Context7通过提供精准、最新、区分版本的官方代码示例作为上
 
 **尝试Context7，让你和过时代码说再见！**
 
----
+
+公众号会持续输出更多技术文章，欢迎关注。
+![](https://neptune-ipc.oss-cn-shenzhen.aliyuncs.com/img/%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E7%99%BD%E8%89%B2%E7%89%88.png)
+

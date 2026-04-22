@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Hello Agent CLI
       link: /hello-agent-cli
+    - theme: alt
+      text: 译文
+      link: /fanyi
 
 features:
   - title: Super Rico

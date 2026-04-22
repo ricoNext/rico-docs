@@ -51,6 +51,11 @@ export default defineConfig({
 				link: "/hello-agent-cli",
 				activeMatch: "/hello-agent-cli/",
 			},
+			{
+				text: "译文",
+				link: "/fanyi",
+				activeMatch: "/fanyi/",
+			},
 			// {
 			//   text: "Super Rico",
 			//   link: "https://super-rico.vercel.app",
@@ -90,6 +95,10 @@ export default defineConfig({
 			"/hello-agent-cli/": {
 				base: "",
 				items: getList('hello-agent-cli', ""),
+			},
+			"/fanyi/": {
+				base: "",
+				items: getList('fanyi', ""),
 			},
 		},
 		socialLinks: [{ icon: "github", link: "https://github.com/ricoNext" }],

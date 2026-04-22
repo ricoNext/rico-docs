@@ -1,3 +1,5 @@
+# CLI正在成为新的API
+
 ![](https://neptune-ipc.oss-cn-shenzhen.aliyuncs.com/img/20260420134715227.png)
 
 如果你是 AI 的深度使用者， 那你肯定会接触到 CLI 界面, 不管是通用的 AI Agent 工具、AI 编程工具， 还是和业务强相关的 飞书， 钉钉， 企业微信、 Shopee 等也都不约而同的推出了自己的 CLI 工具。 

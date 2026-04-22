@@ -1,10 +1,10 @@
-# 0 从零开始打造 Agent CLI 工具
+# 0-从零开始打造 Agent CLI 工具
 
 > **最终产物**：一个名为 `hello-agent-cli` 的完整 Agent CLI，约 5000 行 TypeScript 代码
 >
 > **参考蓝图**：Claude Code（Anthropic，51 万行生产代码）——每章附对应源码路径与设计解析
 
-## 这本教程造什么？
+## 这本教程要做什么？
 
 ```bash
 # 完成教程后，你将拥有这样一个工具：

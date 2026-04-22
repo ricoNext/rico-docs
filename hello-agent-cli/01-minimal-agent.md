@@ -1,4 +1,4 @@
-# 01 Hello Agent CLI - 50 行实现最小 Agent CLI
+# 01-50 行实现最小 Agent CLI
 
 ![](https://neptune-ipc.oss-cn-shenzhen.aliyuncs.com/img/20260420171836146.png)
 

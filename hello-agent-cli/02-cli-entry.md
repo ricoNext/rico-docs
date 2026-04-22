@@ -1,4 +1,4 @@
-# 02 Hello Agent CLI - 生产级 CLI 入口的快路径设计
+# 02-生产级 CLI 入口的快路径设计
 
 **Hello Agent CLI** 是一个生产级 Agent CLI 搭建的系列教程， 这个系列教程基于 [Claude Code](https://github.com/ricoNext/claude-code) 的源码，从零开始手把手教你如何搭建一个生产级可用的 Agent CLI 工具，并对比 Claude Code 的实现方式，帮助你理解 Agent CLI 工具的实现原理。
 

@@ -1,4 +1,4 @@
-# (译文)AI Agent 陷阱：了解你的 AI Agent 是如何被毒害的
+# AI Agent 陷阱：了解你的 AI Agent 是如何被毒害的
 
 Google DeepMind 最近在 ACL 2025 上发表了一篇关于 AI Agent 投毒攻击的论文，是一篇长文全文共 25 页，论文的研究背景是：
 

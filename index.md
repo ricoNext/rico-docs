@@ -11,8 +11,11 @@ hero:
       text: Note
       link: /notes/json-schema
     - theme: alt
-      text: ts-enum-next
+      text: ts-enum-next 项目
       link: /ts-enum-next
+    - theme: alt
+      text: Hello Agent CLI
+      link: /hello-agent-cli
 
 features:
   - title: Super Rico

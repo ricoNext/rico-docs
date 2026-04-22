@@ -1,51 +1,54 @@
 ---
 type: infographic
 density: per-section
-style: notion
+style: editorial
 palette: default
 preset: tech-explainer
-style_override: notion
-image_count: 5
-article: fanyi/The CLI is the new API.md
+style_override: editorial
+image_count: 7
+article: fanyi/ai-agent-traps.md
 update_mode: copy
+existing_images_mode: supplement
 ---
 
 ## Illustration 1
-
-**Position**: 「### CLI 正在成为新的 API」首段（尼尔·斯蒂芬森与智能代理）
-**Purpose**: 对比「人类使用 CLI」与「智能代理使用 CLI」的差异，点出代理不怕严格语法。
-**Visual Content**: 左右分栏：一侧示意人类易出错、需 GUI「拯救」；另一侧代理精确、与终端友好共处。不出现残酷或暴力具象。
-**Type Application**: infographic，对比结构。
-**Filename**: 01-infographic-human-agent-cli.png
+**Position**: 开篇背景 + 论文摘要（“信息环境本身就是攻击面”）
+**Purpose**: 建立总览心智模型，说明攻击面从模型漏洞扩展到信息环境。
+**Visual Content**: 人类-网页-Agent-行动链路图，突出“中间解释层风险”。
+**Filename**: 06-infographic-attack-surface-overview.png
 
 ## Illustration 2
-
-**Position**: 「#### 为什么 SaaS 公司开始为智能代理推出 CLI？」两阶段论述
-**Purpose**: 可视化「阶段一：编程代理 CLI」→「阶段二：SaaS 推出代理向 CLI」。
-**Visual Content**: 横向两阶段时间条；阶段一列出代表性 CLI 产品与大致时间；阶段二列出 Basecamp、Stripe Projects、Vercel 等回应。
-**Type Application**: infographic + 时间序。
-**Filename**: 02-infographic-two-phases-cli.png
+**Position**: 二、六大陷阱类型详解（总览）
+**Purpose**: 将 6 类陷阱与 6 个攻击层（感知/推理/记忆/行动/系统/监督）一图对齐。
+**Visual Content**: 六格矩阵 + 风险箭头，带中英文类别标签。
+**Filename**: 07-infographic-six-traps-map.png
 
 ## Illustration 3
-
-**Position**: 「#### 为什么浏览器自动化对智能代理来说行不通？」
-**Purpose**: 对比浏览器自动化基准与 CLI 在程序化链路中的可靠性。
-**Visual Content**: 左侧浏览器路径标注 WebVoyager / WebArena 分数；右侧 CLI 路径标注「身份验证等环节」高可靠性；中间用箭头强调「结构化输出 / JSON」。
-**Type Application**: infographic，对比 + 指标。
-**Filename**: 03-infographic-browser-vs-cli.png
+**Position**: 内容注入陷阱 + 行为控制陷阱（含 15%-29%、86%、>80%）
+**Purpose**: 强调“可实证、高成功率、可直接造成外泄”的高危路径。
+**Visual Content**: 从隐藏指令到越狱再到数据外泄的攻击链。
+**Filename**: 08-infographic-empirical-attack-chain.png
 
 ## Illustration 4
-
-**Position**: 「#### CLI 正在成为新的“连接”与“无关”分界线」
-**Purpose**: 类比「API 时代的连接门槛」与「CLI 时代对代理工作流的连接门槛」。
-**Visual Content**: 简图：过去「API = 互联接口」；现在「CLI = 进入代理工作流的接口层」；可点缀 Stripe/curl 式「几行集成」隐喻（抽象图标，非商标）。
-**Type Application**: infographic，框架/类比。
-**Filename**: 04-infographic-connection-layer.png
+**Position**: 三、防御体系：现状与缺口
+**Purpose**: 展示“已有 4 类防御”与“3 大缺口”之间的不匹配。
+**Visual Content**: 左防御卡片、右缺口卡片，中间缺口断层。
+**Filename**: 09-infographic-defense-gaps.png
 
 ## Illustration 5
+**Position**: 四、信任危机（过去 vs 现在）
+**Purpose**: 可视化信任结构变化：人类直连信息 → 人类经 Agent 间接行动。
+**Visual Content**: 双轨对比图 + 关键引言摘要。
+**Filename**: 10-infographic-trust-shift.png
 
-**Position**: 「#### 没有 CLI 会怎样？」Notion 与社区包装
-**Purpose**: 说明无官方 CLI 时社区包装不可避免，以及接口控制权问题。
-**Visual Content**: 流程：无官方 CLI → 多个非官方/社区 CLI → 问题转为「谁控制接口」；底部一句「接口问题 ≈ 发现问题」。
-**Type Application**: infographic，轻量流程图。
-**Filename**: 05-infographic-notion-cli-gap.png
+## Illustration 6
+**Position**: 威胁等级划分表
+**Purpose**: 将 6 类陷阱按当前威胁强度直观排序。
+**Visual Content**: 纵向风险条形图（极高/高/中/中/中低/未来高）。
+**Filename**: 11-infographic-risk-ranking.png
+
+## Illustration 7
+**Position**: 中国生态特别考量 + 建议
+**Purpose**: 给出落地行动图：高风险场景与三方建议（产品/企业/监管）。
+**Visual Content**: 4 个高风险场景 + 3 组防御建议清单。
+**Filename**: 12-infographic-cn-actions.png

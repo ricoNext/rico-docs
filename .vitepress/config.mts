@@ -46,6 +46,11 @@ export default defineConfig({
 				link: "/ts-enum-next",
 				activeMatch: "/ts-enum-next/",
 			},
+			{
+				text: "Hello Agent CLI",
+				link: "/hello-agent-cli",
+				activeMatch: "/hello-agent-cli/",
+			},
 			// {
 			//   text: "Super Rico",
 			//   link: "https://super-rico.vercel.app",
@@ -81,6 +86,10 @@ export default defineConfig({
 			"/ts-enum-next/": {
 				base: "",
 				items: [{ text: "首页", link: "/ts-enum-next/index" }],
+			},
+			"/hello-agent-cli/": {
+				base: "",
+				items: getList('hello-agent-cli', ""),
 			},
 		},
 		socialLinks: [{ icon: "github", link: "https://github.com/ricoNext" }],

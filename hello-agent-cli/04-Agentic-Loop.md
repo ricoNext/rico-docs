@@ -1,6 +1,20 @@
-# 04-Agentic Loop，让模型开始干活
+# 04 - Agentic Loop，让模型开始干活
 
-![](https://neptune-ipc.oss-cn-shenzhen.aliyuncs.com/img/20260429133504093.png)
+这是一套从 0 到 1 构建 Agent CLI 的分阶段实战教程。 你会沿着 `REPL -> Agentic Loop -> Context Builder -> 工具系统 -> 工程化` 的路线逐章推进，最终做出一个可运行、可扩展、可发布的完整工具。
+
+**技术栈**：`TypeScript + Node.js/Bun + React Ink + OpenAI/Anthropic API/DeepSeek API/GLM API/Qwen API`
+
+代码仓库：[hello-agent-cli](https://github.com/ricoNext/hello-agent-cli) 每章的代码按照分支存放在仓库中， 分支名称为 `chapter-xxx`。
+
+最新文章可在 [https://www.riconext.cn/](https://www.riconext.cn/) 查看。
+
+学习建议： 
+1. 按照章节顺序阅读，每章的代码仓库地址在章节末尾。
+2. 你可以基于上个章节的代码，跟着本章内容一起实现。
+---
+
+
+![](https://neptune-ipc.oss-cn-shenzhen.aliyuncs.com/img/20260429135011018.png)
 
 前面三章，我们已经把命令行壳子搭好了：有入口、有管道模式、有流式输出。
 
@@ -12,8 +26,11 @@
 
 本章配套代码：[`chapter-04`](https://github.com/ricoNext/hello-agent-cli/tree/chapter-04)
 
----
 
+> 本系列最新文章可在[https://www.riconext.cn/](https://www.riconext.cn/)查看
+
+---
+  
 第 3 章结束时，`-p` 还是纯对话路径（`runQuery`）。所以像下面这种问题，模型其实答不准：
 
 ```tsx

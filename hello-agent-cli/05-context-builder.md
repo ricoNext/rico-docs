@@ -1,9 +1,8 @@
-# Hello Agent CLI（05）：Context Builder，上下文构建
+# 05 - Context Builder，上下文构建
 
-如果你想真正搞懂 Claude Code / Cursor 背后的 Agent 是怎么“会思考、会调工具、会持续完成任务”的，这套教程就是给你的。  
-你将从 0 开始，一步步做出一个可运行、可扩展、可发布的 Agent CLI，不只会“调用模型”，还会完整打通 REPL、Agentic Loop、上下文构建、工具系统和工程化发布。
+这是一套从 0 到 1 构建 Agent CLI 的分阶段实战教程。 你会沿着 `REPL -> Agentic Loop -> Context Builder -> 工具系统 -> 工程化` 的路线逐章推进，最终做出一个可运行、可扩展、可发布的完整工具。
 
-**技术栈**：TypeScript + Node.js/Bun + React Ink + OpenAI/Anthropic API/DeepSeek API/GLM API/Qwen API
+**技术栈**：`TypeScript + Node.js/Bun + React Ink + OpenAI/Anthropic API/DeepSeek API/GLM API/Qwen API`
 
 代码仓库：[hello-agent-cli](https://github.com/ricoNext/hello-agent-cli)
 

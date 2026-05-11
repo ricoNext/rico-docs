@@ -15,7 +15,7 @@
   <a href=""><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/ricoNext/aicode-ratio/publish-npm.yml?style=flat-square&amp;branch=main" /></a>
 </p>
 
-[简体中文](README.zh-CN.md)
+[简体中文](https://github.com/ricoNext/aicode-ratio/blob/main/README.zh-CN.md)
 
 **aicode-ratio** is a command-line tool for estimating **AI Code Ratio** over a period: how much of your code changes overlap editor-side AI activity versus plain Git history.
 
@@ -282,7 +282,7 @@ Reports show **ratio A**, **ratio B**, and when applicable **`byLogGitUser`** to
 
 ### Versions & changelog (Changesets)
 
-Releases and `CHANGELOG.md` are managed with [Changesets](https://github.com/changesets/changesets). See **[.changeset/README.md](.changeset/README.md)** for the full workflow.
+Releases and `CHANGELOG.md` are managed with [Changesets](https://github.com/changesets/changesets). See **[.changeset/README](https://github.com/ricoNext/aicode-ratio/blob/main/.changeset/README.md)** for the full workflow.
 
 - **`pnpm changeset`**: add a changeset (creates `.changeset/*.md`) whenever you ship user-facing changes; commit it with your PR.
 - **`pnpm changeset:version`**: consumes merged changesets, **bumps `package.json` `version`**, and **updates the root `CHANGELOG.md`** via `@changesets/changelog-github` (then removes the consumed files).
@@ -290,4 +290,4 @@ Releases and `CHANGELOG.md` are managed with [Changesets](https://github.com/cha
 
 Local development and CI: `pnpm install`, `pnpm run build`, `pnpm test`; CI uses `pnpm install --frozen-lockfile`.
 
-Design docs: [docs/multi-editor-plan.md](docs/multi-editor-plan.md), [docs/aicode-ratio-npm-package.md](docs/aicode-ratio-npm-package.md). Tests and hook fixtures live under `test/`, `test/fixtures/`, and `src/hooks/append-log.mjs`.
+Design docs: [multi-editor plan](https://github.com/ricoNext/aicode-ratio/blob/main/docs/multi-editor-plan.md), [npm package notes](https://github.com/ricoNext/aicode-ratio/blob/main/docs/aicode-ratio-npm-package.md). Tests and hook fixtures live under `test/`, `test/fixtures/`, and `src/hooks/append-log.mjs`.

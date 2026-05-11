@@ -52,10 +52,11 @@ export default defineConfig({
 				activeMatch: "/hello-agent-cli/",
 			},
 			{
-				text: "译文",
-				link: "/fanyi",
-				activeMatch: "/fanyi/",
+				text: "aicode-ratio",
+				link: "/aicode-ratio",
+				activeMatch: "/aicode-ratio/",
 			},
+			
 			// {
 			//   text: "Super Rico",
 			//   link: "https://super-rico.vercel.app",
@@ -96,6 +97,7 @@ export default defineConfig({
 				base: "",
 				items: getList('hello-agent-cli', ""),
 			},
+			
 			"/fanyi/": {
 				base: "",
 				items: getList('fanyi', ""),

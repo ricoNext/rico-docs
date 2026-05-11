@@ -13,12 +13,15 @@ hero:
     - theme: alt
       text: ts-enum-next 项目
       link: /ts-enum-next
-    - theme: alt
+    - theme: brand
       text: Hello Agent CLI
       link: /hello-agent-cli
     - theme: alt
       text: 译文
       link: /fanyi
+    - theme: brand
+      text: aicode-ratio
+      link: https://github.com/ricoNext/aicode-ratio
 
 features:
   - title: Super Rico

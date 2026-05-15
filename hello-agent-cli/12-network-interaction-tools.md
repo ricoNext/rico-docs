@@ -1,4 +1,4 @@
-# Hello Agent CLI（12）： agent 网络搜索引擎搭建
+# 12 - agent 网络搜索引擎搭建
 
 这是一套从 0 到 1 构建 Agent CLI 的分阶段实战教程。你会沿着  
 `REPL -> Agentic Loop -> Context Builder -> 工具系统 -> 工程化`  

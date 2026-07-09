@@ -8,6 +8,9 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
+      text: Hermes Repo
+      link: /hermes-repo/01-product-intro
+    - theme: alt
       text: Note
       link: /notes/json-schema
     - theme: alt
@@ -21,7 +24,7 @@ hero:
       link: /fanyi
     - theme: brand
       text: aicode-ratio
-      link: https://github.com/ricoNext/aicode-ratio
+      link: /aicode-ratio
 
 features:
   - title: Super Rico

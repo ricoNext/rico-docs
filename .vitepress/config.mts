@@ -43,18 +43,13 @@ export default defineConfig({
 			},
 			{
 				text: "开源项目",
-				link: "/ts-enum-next",
-				activeMatch: "/ts-enum-next/",
-			},
-			{
-				text: "Hello Agent CLI",
-				link: "/hello-agent-cli",
-				activeMatch: "/hello-agent-cli/",
-			},
-			{
-				text: "aicode-ratio",
-				link: "/aicode-ratio",
-				activeMatch: "/aicode-ratio/",
+				activeMatch: "/(ts-enum-next|hello-agent-cli|aicode-ratio|hermes-repo)/",
+				items: [
+					{ text: "ts-enum-next", link: "/ts-enum-next" },
+					{ text: "Hermes Repo", link: "/hermes-repo/01-product-intro" },
+					{ text: "Hello Agent CLI", link: "/hello-agent-cli" },
+					{ text: "aicode-ratio", link: "/aicode-ratio" },
+				],
 			},
 			
 			// {
@@ -96,6 +91,12 @@ export default defineConfig({
 			"/hello-agent-cli/": {
 				base: "",
 				items: getList('hello-agent-cli', ""),
+			},
+			"/hermes-repo/": {
+				base: "",
+				items: getList("hermes-repo", "").sort((a, b) =>
+					a.link.localeCompare(b.link),
+				),
 			},
 			
 			"/fanyi/": {

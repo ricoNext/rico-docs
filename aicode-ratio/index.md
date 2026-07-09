@@ -1,7 +1,5 @@
 <p align="center">一个统计 AI agent 的代码变更与手写代码变更的比率（AI Code Ratio）的命令行工具</p>
 
-[English](README.md)
-
 **aicode-ratio** 是一个统计某段时间内 AI agent 的代码变更与手写代码变更的比率（AI Code Ratio）的命令行工具：
 
 它通过AI agent 提供的 **Hooks** 记录 **AI 编程智能体 / Tab** 在何时**改过、保存过哪些文件**，再与 **Git 提交**在时间上对齐，估算一段时间内 **「有多少提交 / 多少变更文件」曾与编辑器侧活动重合**。
